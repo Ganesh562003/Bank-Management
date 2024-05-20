@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <link rel="stylesheet" href="insert.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="./Insertdata" method="post">
+            <h2>Account Details</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Account number:</label>
+                <input type="text" id="number" name="number" required>
+            </div>
+            <div class="form-group">
+                <label for="ifsc">IFSC code:</label>
+                <input type="text" id="ifsc" name="ifsc" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" name="amount" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
